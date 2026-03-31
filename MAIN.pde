@@ -8,7 +8,7 @@ State currentState= State.INTRO;
 void statecontrol() {
   switch(currentState) {
   case INTRO:
-  introPg();
+    introPg();
     break;
 
   case DRAWING:
@@ -44,7 +44,7 @@ void mouseClicked() {
 
 void introPg() {
   fill(255);
-text("click to start \n MAKE ART", width/2, height/2, -120);
+  text("click to start \n MAKE ART", width/2, height/2, -120);
 }
 
 
@@ -52,10 +52,9 @@ void makeArt() {
   background(20);
   triangleUp();
   square1();
-  circleStrokes();  
+  circleStrokes();
   threeLines();
   bezier1() ;
-bezier2();
   sphere2();
   box1();
   box2();
