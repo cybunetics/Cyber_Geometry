@@ -55,7 +55,7 @@ void makeArt() {
   circleStrokes();  
   threeLines();
   bezier1() ;
-
+bezier2();
   sphere2();
   box1();
   box2();
